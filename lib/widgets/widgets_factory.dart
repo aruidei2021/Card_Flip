@@ -328,8 +328,8 @@ Widget component6() {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
+                backgroundColor: HexColor.fromHex('FEBE16'),
                 elevation: 0,
-                primary: HexColor.fromHex('FEBE16'),
               ),
               onPressed: () {
                 FlipLayout.of(context).toggle();
